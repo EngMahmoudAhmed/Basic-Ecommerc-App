@@ -8,7 +8,7 @@ import './Slider.module.css'
 const Slider = () => {
     return (
         <>
-            <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active" >
                         <img src={image1} className="d-block w-100 vh-100 " height={500} alt="..."/>
