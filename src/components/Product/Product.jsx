@@ -17,7 +17,6 @@ const Product = (props) => {
                         <Link className="btn btn-primary" to={`/product/${product.id}`}>Details</Link>
                         
                         :<Link className="btn btn-danger" to={`/`}>Back</Link>
-
                     }
                     </div>
                 </div>
