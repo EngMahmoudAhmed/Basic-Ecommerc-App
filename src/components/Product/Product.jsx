@@ -6,8 +6,8 @@ const Product = (props) => {
     // console.log(props)
     return (
         <>
-                <div className="card my-3">
-                    <img src={product.image} className="card-img-top rounded-4" height={300} alt="img" />
+                <div className="card my-3 border-2 p-2 bg-gray">
+                    <img src={product.image} className="card-img-top rounded-4 shadow-sm" height={300} alt="img" />
                     <div className="card-body">
                     <h5 className="card-title">Card title</h5>
                     <p>{product.price } $</p>
