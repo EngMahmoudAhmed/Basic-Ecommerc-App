@@ -16,7 +16,7 @@ const ProductDetails = () => {
     }, []);
 
     return (
-        <div className='w-50 text-center m-auto'>
+        <div className='col-md-4 text-center m-auto'>
             <Product product={ product} showButton={false} />
         </div>
     )
